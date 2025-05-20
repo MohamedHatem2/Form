@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+  <body>
+      <form action="">
+          <input type="text" name="name" id="my-name" placeholder="Name">
+          <p class="error" id="nameError">This Field is requried</p>
+          <input type="number" name="age" id="my-age" placeholder="Age">
+          <p class="error" id="ageError">This Field is requried</p>
+          <input type="email" name="mail" id="my-mail" placeholder="example@mail.com">
+          <p class="error" id="mailError">This Field is requried</p>
+        <div class="btn">
+            <input type="submit" name="submit" id="submit" value="Add">
+        <input type="reset" name="reset" id="reset" value="Reset">
+        </div>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>E-mail</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+    <script src="main.js"></script>
+  </body>
+</html>
